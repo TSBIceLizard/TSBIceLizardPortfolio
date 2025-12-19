@@ -1,0 +1,352 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+  color: beige;
+}
+
+body {
+  background-color: black;
+  background-image: url("./images/MilkyWaySky.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.heading {
+  text-align: center;
+  margin: 32px;
+  font-size: 56px;
+  font-weight: bolder;
+  color: palegoldenrod;
+  text-shadow: 2px 2px 5px gray;
+}
+
+.navclass {
+  margin: 64px;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.navclass a {
+  color: goldenrod;
+}
+
+#aboutme {
+  margin: 384px;
+  font-weight: bold;
+}
+
+#aboutme h1 {
+  font-size: 48px;
+}
+
+#aboutmecontent {
+  margin: 4px;
+  padding: 48px;
+}
+
+.aboutmeformatting {
+  margin: 20px;
+  padding: 0px;
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+/* .aboutmeformatting {
+  margin: 32px;
+  padding: 4px;
+} */
+
+#toolset {
+  margin: 384px;
+}
+
+#toolset h1 {
+  font-size: 48px;
+}
+
+.toolsetcontent {
+  margin: 4px;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 128px, 320px, 320px, 320px, 320px, 320px, 320px;
+  grid-row-gap: 64px;
+}
+
+.toolsetcontent div {
+  margin: 32px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.toolsetdiv0 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+/* Not sure I had to configure all divs in this section akin to the one above */
+
+.toolsetcontent img {
+  padding: 16px;
+  width: 256px;
+  height: auto;
+}
+
+#threedmodels {
+  margin: 384px;
+}
+
+/* #threedmodelscontent {
+    margin:4px;
+    padding:48px;
+    display:flex;
+    justify-content: space-around;
+} */
+
+#threedmodels h2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#threedmodels img {
+  margin: 4px;
+  padding: 4px;
+  width: 480px;
+  height: auto;
+  /* align-content: center; */
+  /* position: relative; */
+  flex-flow: wrap;
+}
+
+.vblynsoldier {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 64px, 720px, 720px;
+  grid-row-gap: 32px;
+}
+
+.vblynsoldier h2 {
+  margin: 0px;
+  padding: 16px;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.vblynsoldier div {
+  display: flex;
+  justify-content: center;
+}
+
+.vblynsolone {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.vblynsoltwo {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.vblynsolthree {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.vblynsolfour {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.vblynsolone h3 {
+  position: absolute;
+  /* align-content: start; */
+  /* text-align: unset; */
+  margin: 32px;
+  padding: 16px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+.vblynsoltwo h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+.vblynsolthree h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+.vblynsolfour h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+.vblynsctone h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+.vblynscttwo h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+#humablbodone h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 24px;
+  color: black;
+}
+
+#humablbodtwo h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 28px;
+  color: black;
+}
+
+#humablbodthree h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+#humablbodfour h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+#humablbodfive h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: black;
+}
+
+#skrj h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 40px;
+  color: beige;
+}
+
+#skrjtwo h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 24px;
+  color: black;
+}
+
+#skrjthree h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 24px;
+  color: black;
+}
+
+#skrjfour h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 24px;
+  color: black;
+}
+
+#skrjfive h3 {
+  position: absolute;
+  margin: 32px;
+  padding: 32px;
+  z-index: 1;
+  font-size: 24px;
+  color: black;
+}
+
+#materialsandtextures {
+  margin: 384px;
+}
+
+#materialsandtextures h2 {
+  margin: 16px;
+  padding: 16px;
+}
+
+#materialsandtextures h3 {
+  margin: 24px;
+  padding: 24px;
+}
+
+#materialsandtextures img {
+  margin: 4px;
+  padding: 4px;
+  width: 512px;
+  height: auto;
+  display: flex;
+  align-content: center;
+}
+
+#backtotop {
+  text-align: center;
+}
+
+footer {
+  margin: 48px;
+  padding: 12px;
+  text-align: center;
+  font-style: oblique;
+}
