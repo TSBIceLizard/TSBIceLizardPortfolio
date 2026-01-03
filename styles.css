@@ -265,12 +265,6 @@ body {
   grid-template-rows: 64px, 720px, 720px, 720px, 720px;
   grid-row-gap: 32px;
   margin-bottom: 6em;
-  video {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 5;
-    grid-row-end: 5;
-  }
 }
 
 .humablbodone {
