@@ -127,7 +127,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 64px, 720px, 720px;
   grid-row-gap: 32px;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 .vblynsoldier h2 {
@@ -215,7 +215,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 64px, 720px, 720px;
   grid-row-gap: 32px;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 
 .vblynsct h2 {
@@ -259,7 +259,22 @@ body {
   color: black;
 }
 
-#humablbodone h3 {
+.human-able-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 64px, 720px, 720px, 720px;
+  grid-row-gap: 32px;
+  margin-bottom: 4em;
+}
+
+.humablbodone {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.humablbodone h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -268,7 +283,14 @@ body {
   color: black;
 }
 
-#humablbodtwo h3 {
+.humablbodtwo {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.humablbodtwo h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -277,7 +299,14 @@ body {
   color: black;
 }
 
-#humablbodthree h3 {
+.humablbodthree {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.humablbodthree h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -286,7 +315,14 @@ body {
   color: black;
 }
 
-#humablbodfour h3 {
+.humablbodfour {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.humablbodfour h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -295,7 +331,14 @@ body {
   color: black;
 }
 
-#humablbodfive h3 {
+.humablbodfive {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.humablbodfive h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -304,7 +347,22 @@ body {
   color: black;
 }
 
-#skrj h3 {
+.uskaarjrecreate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 64px, 720px, 720px, 720px;
+  grid-row-gap: 32px;
+  margin-bottom: 4em;
+}
+
+.skrj {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.skrj h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -313,7 +371,14 @@ body {
   color: beige;
 }
 
-#skrjtwo h3 {
+.skrjtwo {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.skrjtwo h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -322,7 +387,14 @@ body {
   color: black;
 }
 
-#skrjthree h3 {
+.skrjthree {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.skrjthree h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -331,7 +403,14 @@ body {
   color: black;
 }
 
-#skrjfour h3 {
+.skrjfour {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.skrjfour h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
@@ -340,7 +419,14 @@ body {
   color: black;
 }
 
-#skrjfive h3 {
+.skrjtwo {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.skrjfive h3 {
   position: absolute;
   margin: 32px;
   padding: 32px;
