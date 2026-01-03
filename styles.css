@@ -127,6 +127,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 64px, 720px, 720px;
   grid-row-gap: 32px;
+  margin-bottom: 3em;
 }
 
 .vblynsoldier h2 {
@@ -209,6 +210,30 @@ body {
   color: black;
 }
 
+.vblynsct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 64px, 720px, 720px;
+  grid-row-gap: 32px;
+  margin-bottom: 3em;
+}
+
+.vblynsct h2 {
+  margin: 0px;
+  padding: 16px;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.vblynsctone {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
 .vblynsctone h3 {
   position: absolute;
   margin: 32px;
@@ -216,6 +241,13 @@ body {
   z-index: 1;
   font-size: 40px;
   color: black;
+}
+
+.vblynscttwo {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 .vblynscttwo h3 {
